@@ -25,6 +25,7 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".AddListingActivity" />
+        <activity android:name=".SearchActivity" />
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
 

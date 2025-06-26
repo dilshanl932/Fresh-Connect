@@ -41,8 +41,7 @@
         android:layout_above="@id/bottom_navigation_container"
         android:padding="8dp"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-        app:spanCount="2"
-        tools:listitem="@layout/item_product" />
+        app:spanCount="2" />
 
     <!-- Bottom Navigation Container -->
     <LinearLayout
@@ -62,18 +61,5 @@
             app:labelVisibilityMode="labeled"
             app:menu="@menu/bottom_navigation_menu" />
     </LinearLayout>
-
-    <!-- Floating Action Button for Post -->
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_add_listing"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="32dp"
-        android:src="@drawable/ic_add_circle"
-        app:backgroundTint="#1ED760"
-        app:elevation="4dp"
-        app:tint="@android:color/white" />
 
 </RelativeLayout> 
